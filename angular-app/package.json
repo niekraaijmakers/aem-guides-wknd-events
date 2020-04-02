@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "watch": "ng build  --prod --watch --stats-json",
+    "watch": "ng build --watch --stats-json",
     "start": "ng serve --proxy-config proxy.aem.conf.json",
     "aempack": "cross-env NODE_ENV=production node scripts/aempack.js",
     "build": "ng build --prod --stats-json",

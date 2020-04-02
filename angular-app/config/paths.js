@@ -6,7 +6,7 @@ const fs = require('fs');
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 
-const clientLibRelativePath = '/apps/wknd-events/clientlibs/angular-app';
+const clientLibRelativePath = '/apps/wknd-events/clientlibs/angular-app/resources';
 
 module.exports = {
     clientLibRoot: resolveApp('../ui.apps/src/main/content/jcr_root' + clientLibRelativePath),

@@ -42,6 +42,7 @@ aemPack({
     cliBuildCommandArgs: ["run","watch"],
     cliBuildCommandSuccessMsg: 'Hash:',
     disableServerSideRendering: !developWithSSR,
+    isInClientLibRoot: false,
 
     aemProtocol: 'http',
     aemHost: aemHost,
