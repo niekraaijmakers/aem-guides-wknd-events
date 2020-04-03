@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "watch": "ng build --watch --stats-json",
+    "watch": "ng build --watch --stats-json  --deploy-url /etc.clientlibs/wknd-events/clientlibs/angular-app/resources/",
     "start": "ng serve --proxy-config proxy.aem.conf.json",
     "aempack": "cross-env NODE_ENV=production node scripts/aempack.js",
-    "build": "ng build --prod --stats-json",
+    "build": "ng build --prod --stats-json --deploy-url /etc.clientlibs/wknd-events/clientlibs/angular-app/resources/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -31,7 +31,7 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "aempack": "1.1.8",
+    "aempack": "1.1.9",
     "@angular-devkit/build-angular": "~0.803.20",
     "@angular/cli": "~8.3.20",
     "@angular/compiler-cli": "~8.2.14",
