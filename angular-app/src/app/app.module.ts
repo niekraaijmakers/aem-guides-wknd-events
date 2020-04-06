@@ -19,8 +19,8 @@ import { ListComponent } from './components/list/list.component';
     ListComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     SpaAngularEditableComponentsModule
   ],
   providers: [],

@@ -41,8 +41,8 @@
 
           <!-- Update: Used by frontend-maven-plugin -->
         <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
-        <node.version>v10.8.0</node.version>
-        <npm.version>6.2.0</npm.version>
+        <node.version>v13.6.0</node.version>
+        <npm.version>6.13.4</npm.version>
         <!-- end update -->
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -579,7 +579,7 @@
                 <version>2.0.0</version>
                 <scope>provided</scope>
             </dependency>
-			
+
             <!-- Testing -->
             <dependency>
                 <groupId>junit</groupId>

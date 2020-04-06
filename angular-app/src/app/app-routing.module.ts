@@ -13,6 +13,13 @@ export function AemPageMatcher ( url: UrlSegment[] ): UrlMatchResult {
       posParams: { path: url[url.length - 1]}
     });
   }
+
+  if (path.startsWith('conf/wknd-events/')) {
+    return ({
+      consumed: url,
+      posParams: { path: url[url.length - 1]}
+    });
+  }
 }
 
 @Injectable()

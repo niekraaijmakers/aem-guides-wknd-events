@@ -1,6 +1,11 @@
 import { Component } from '@angular/core';
 import { ModelManager, Constants } from '@adobe/cq-spa-page-model-manager';
-import { AEMResponsiveGridComponent, AEMContainerComponent, MapTo } from '@adobe/cq-angular-editable-components';
+import {
+  AEMResponsiveGridComponent,
+  AEMContainerComponent,
+  MapTo,
+  AEMParsysComponent, AEMExperiencefragmentVariationComponent
+} from '@adobe/cq-angular-editable-components';
 
 @Component({
   selector: 'app-root',
@@ -15,3 +20,5 @@ export class AppComponent {
 
 MapTo('wknd-events/components/structure/app')(AEMContainerComponent);
 MapTo('wcm/foundation/components/responsivegrid')(AEMResponsiveGridComponent);
+MapTo('wcm/foundation/components/parsys')(AEMParsysComponent);
+MapTo('core/wcm/components/experiencefragment/v1/experiencefragment')(AEMExperiencefragmentVariationComponent);
