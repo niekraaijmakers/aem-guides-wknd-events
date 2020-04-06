@@ -33,27 +33,27 @@
 
         <executions>
 
-        <execution>
-            <id>install node and npm</id>
-            <goals>
-            <goal>install-node-and-npm</goal>
-            </goals>
-            <configuration>
-            <nodeVersion>${node.version}</nodeVersion>
-            <npmVersion>${npm.version}</npmVersion>
-        </configuration>
-        </execution>
+<!--        <execution>-->
+<!--            <id>install node and npm</id>-->
+<!--            <goals>-->
+<!--            <goal>install-node-and-npm</goal>-->
+<!--            </goals>-->
+<!--            <configuration>-->
+<!--            <nodeVersion>${node.version}</nodeVersion>-->
+<!--            <npmVersion>${npm.version}</npmVersion>-->
+<!--        </configuration>-->
+<!--        </execution>-->
 
-        <execution>
-            <id>npm install</id>
-            <goals>
-            <goal>npm</goal>
-            </goals>
-            <!-- Optional configuration which provides for running any npm command -->
-            <configuration>
-            <arguments>install</arguments>
-            </configuration>
-        </execution>
+<!--        <execution>-->
+<!--            <id>npm install</id>-->
+<!--            <goals>-->
+<!--            <goal>npm</goal>-->
+<!--            </goals>-->
+<!--            &lt;!&ndash; Optional configuration which provides for running any npm command &ndash;&gt;-->
+<!--            <configuration>-->
+<!--            <arguments>install</arguments>-->
+<!--            </configuration>-->
+<!--        </execution>-->
 
         <execution>
             <id>npm run build</id>

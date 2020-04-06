@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "deployUrl": "/etc.clientlibs/wknd-events/clientlibs/angular-app/resources/",
             "outputPath": "../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/angular-app/resources",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -143,5 +144,8 @@
       }
     }
   },
-  "defaultProject": "angular-app"
+  "defaultProject": "angular-app",
+  "cli": {
+    "analytics": false
+  }
 }
