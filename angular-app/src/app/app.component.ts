@@ -21,4 +21,4 @@ export class AppComponent {
 MapTo('wknd-events/components/structure/app')(AEMContainerComponent);
 MapTo('wcm/foundation/components/responsivegrid')(AEMResponsiveGridComponent);
 MapTo('wcm/foundation/components/parsys')(AEMParsysComponent);
-MapTo('core/wcm/components/experiencefragment/v1/experiencefragment')(AEMExperiencefragmentVariationComponent);
+MapTo('wknd-events/components/content/experience-fragment')(AEMExperiencefragmentVariationComponent);
