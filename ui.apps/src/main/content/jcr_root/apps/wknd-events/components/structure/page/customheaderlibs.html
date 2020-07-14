@@ -7,9 +7,9 @@ Custom Headerlibs for Angular App
 <meta property="cq:datatype" data-sly-test="${wcmmode.edit || wcmmode.preview}" content="JSON"/>
 <meta property="cq:wcmmode" data-sly-test="${wcmmode.edit}" content="edit"/>
 <meta property="cq:wcmmode" data-sly-test="${wcmmode.preview}" content="preview"/>
-<meta property="cq:pagemodel_root_url" 
-    data-sly-use.page="com.adobe.aem.guides.wkndevents.core.models.HierarchyPage" 
-    content="${page.rootUrl}"/>
+<meta property="cq:pagemodel_root_url"
+      data-sly-use.page="com.adobe.aem.guides.wkndevents.core.models.HierarchyPage"
+      content="${page.rootUrl}"/>
 
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
     <sly data-sly-call="${clientlib.css @ categories='we-retail-journal.responsivegrid'}"/>
@@ -17,3 +17,5 @@ Custom Headerlibs for Angular App
 
 <sly data-sly-resource="${resource @ resourceType='wknd-events/angular/chunks/static-css'}"/>
 <sly data-sly-resource="${resource @ resourceType='wknd-events/angular/chunks/ssr-css'}"/>
+
+<sly data-sly-call="${clientLib.css @ categories=['wknd-events.site', 'wknd-events.base']}"></sly>
