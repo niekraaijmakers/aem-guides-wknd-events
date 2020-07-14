@@ -16,7 +16,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Event (Angular) Template Root Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND Events - Content]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND Events - Content,group:Wknd Contribution Examples]">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                 <image

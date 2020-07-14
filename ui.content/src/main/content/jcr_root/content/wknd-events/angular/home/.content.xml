@@ -134,6 +134,8 @@
             </responsivegrid>
         </root>
     </jcr:content>
+    <content/>
+    <containers/>
     <airplanes/>
     <pop-architectures/>
     <megalopolis/>
