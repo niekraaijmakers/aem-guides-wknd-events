@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Text Contribution"
           sling:resourceSuperType="core/wcm/components/text/v2/text"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

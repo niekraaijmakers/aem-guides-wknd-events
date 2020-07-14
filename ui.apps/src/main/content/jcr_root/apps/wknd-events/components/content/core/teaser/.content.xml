@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Teaser Contribution"
           sling:resourceSuperType="core/wcm/components/teaser/v1/teaser"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

@@ -5,4 +5,4 @@
           cq:isContainer="{Boolean}true"
           jcr:title="Carousel Contribution"
           sling:resourceSuperType="core/wcm/components/carousel/v1/carousel"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

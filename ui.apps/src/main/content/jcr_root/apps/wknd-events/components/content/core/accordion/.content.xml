@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Accordion Contribution"
           sling:resourceSuperType="core/wcm/components/accordion/v1/accordion"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

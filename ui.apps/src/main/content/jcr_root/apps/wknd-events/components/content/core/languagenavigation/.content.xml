@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Langauge Nav Contribution"
           sling:resourceSuperType="core/wcm/components/languagenavigation/v2/languagenavigation"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, HostBinding} from '@angular/core';
 import { ModelManager, Constants } from '@adobe/cq-spa-page-model-manager';
 import { AEMResponsiveGridComponent, AEMContainerComponent, MapTo } from '@adobe/cq-angular-editable-components';
 import {
@@ -35,16 +35,20 @@ import {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  @HostBinding('class') class = 't-cmp-clean t-cmp-clean--light';
+
   constructor() {
     ModelManager.initialize();
   }
 }
+
+
+MapTo('core/wcm/components/teaser/v1/teaser')(TeaserV1Component, {emptyLabel:'TeaserV1', isEmpty:TeaserV1IsEmptyFn});
 MapTo('wknd-events/components/content/core/navigation')(NavigationV1Component,{emptyLabel:'NavigationV1', isEmpty:NavigationV1IsEmptyFn});
 MapTo('wknd-events/components/content/core/breadcrumb')(BreadCrumbV2Component,{emptyLabel:'BreadCrumbV2', isEmpty:BreadCrumbV2IsEmptyFn});
 MapTo('wknd-events/components/content/core/list')(ListV2Component,{emptyLabel:'ListV2', isEmpty:ListV2IsEmptyFn});
 MapTo('wknd-events/components/content/core/text')(TextV2,{emptyLabel:'TextV2', isEmpty:TextV2IsEmptyFn});
 MapTo('wknd-events/components/content/core/title')(TitleV2);
-MapTo('wknd-events/components/content/core/teaser')(TeaserV1Component, {emptyLabel:'TeaserV1', isEmpty:TeaserV1IsEmptyFn});
 MapTo('wknd-events/components/content/core/separator')(SeparatorV1);
 MapTo('wknd-events/components/content/core/image')(ImageV2Component,{emptyLabel:'ImageV2', isEmpty:ImageV2IsEmptyFn});
 MapTo('wknd-events/components/content/core/download')(DownloadV1Component,{emptyLabel:'DownloadV1', isEmpty:DownloadV1IsEmptyFn});

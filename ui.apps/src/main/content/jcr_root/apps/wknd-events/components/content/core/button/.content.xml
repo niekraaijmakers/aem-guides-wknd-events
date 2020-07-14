@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Button Contribution"
           sling:resourceSuperType="core/wcm/components/button/v1/button"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

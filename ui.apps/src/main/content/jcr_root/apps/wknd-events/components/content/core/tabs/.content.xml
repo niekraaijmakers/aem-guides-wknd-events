@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Tabs Contribution"
           sling:resourceSuperType="core/wcm/components/tabs/v1/tabs"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>

@@ -4,4 +4,4 @@
           jcr:primaryType="cq:Component"
           jcr:title="Image Contribution"
           sling:resourceSuperType="core/wcm/components/image/v2/image"
-          componentGroup="Contribution Examples"/>
+          componentGroup="Wknd Contribution Examples"/>
